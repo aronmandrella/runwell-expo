@@ -6,7 +6,6 @@ import {
   useColorScheme,
   View,
 } from "react-native";
-
 import { WebView, WebViewMessageEvent } from "react-native-webview";
 import { Colors } from "react-native/Libraries/NewAppScreen";
 
