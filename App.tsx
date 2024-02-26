@@ -16,6 +16,8 @@ function App(): React.JSX.Element {
   const webviewRef = useRef<WebView | null>(null);
   const appURL = "https://work.runwell.app/";
 
+  console.log(`Loading app at: ${appURL}`);
+
   const handleEvent = async (event: WebViewMessageEvent) => {
     const eventData = JSON.parse(event.nativeEvent.data);
     console.log(eventData);

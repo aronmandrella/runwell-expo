@@ -27,3 +27,7 @@ yarn start
 ### 3. Run ExpoGo app
 
 - Scan QR code in the terminal
+
+### 4. Viewing logs and debugging
+
+https://docs.expo.dev/debugging/tools/
